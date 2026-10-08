@@ -20,11 +20,59 @@
 
       <legend>My Info</legend>
 
-      <label for="first_name_field">First Name:</label>
-      <input type="text" id="first_name_field" name="first_name_field"><br><br>
-      <label>Last Name:</label>
+      <label for="fname">first name:</label>
+      <input type="text" id="fname" name="first_name_field"><br>
+
+      <label for="lname">last name:</label>
+      <input type="text" id="lname" name="last_name_field"><br>
+
+      <label for="phone">phone:</label>
+      <input type="tel" id="phone" name="phone_field"><br>
+
+      <label for="email">email:</label>
+      <input type="email" id="email" name="email_field"><br>
+
+      <label for="gender">Gender:</label><br>
+      <label>Male <input type="radio" name="gender_field" value="Male"></label>
+      <label>Female <input type="radio" name="gender_field" value="Female"></label><br>
+
+      <label for="age">Age:</label><br>
+      <select id="age">
+
+        <option value="under 18">under 18</option>
+        <option value="over 18">over 18</option>
+
+      </select>
 
     </fieldset>
+
+    <fieldset>
+
+      <legend>My Availablity</legend>
+
+      <h2>Days Available:</h2>
+
+      <label for="sunday">Sunday</label>
+      <input type="checkbox" id="sunday" name="available_field[]"><br>
+      <label for="monday">Monday</label>
+      <input type="checkbox" id="monday" name="available_field[]"><br>
+      <label for="tuesday">Tuesday</label>
+      <input type="checkbox" id="tuesday" name="available_field[]"><br>
+      <label for="wednesday">Wednesday</label>
+      <input type="checkbox" id="wednesday" name="available_field[]"><br>
+      <label for="thursday">Thursday</label>
+      <input type="checkbox" id="thursday" name="available_field[]"><br>
+      <label for="friday">Friday</label>
+      <input type="checkbox" id="friday" name="available_field[]"><br>
+      <label for="saturday">Saturday</label>
+      <input type="checkbox" id="saturday" name="available_field[]"><br>
+
+      <h2>Comments</h2>
+      <input type="text" name="comments_field">
+
+    </fieldset>
+
+    <input type="submit" value="Submit Query">
 
   </form>
 
